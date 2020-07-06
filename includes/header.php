@@ -23,7 +23,7 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
                                     <?php $cnt=$cnt+1;}} ?>
-                                    <!-- <li><a class="toolbar-new-listing" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li> -->
+                                    <li><a class="toolbar-new-listing" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ foreach($results as $row)
                             <li><a href="category.php">categories <span class="arrow"></span></a></li>
                            
                             <li><a href="user/login.php">Log In <span class="arrow"></span></a></li>
-                            <li><a class="toolbar-new-listing  " style="color:blue" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li>
+                            <!-- <li><a class="toolbar-new-listing  " style="color:blue" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li> -->
                             
                         </ul>
                     </nav>
