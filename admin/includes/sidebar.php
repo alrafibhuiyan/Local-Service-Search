@@ -1,14 +1,14 @@
  <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color:#0000A0">
     <!-- Brand Logo -->
     <a href="dashboard.php" class="brand-link" style="font-weight:bold; font-size:22px;">
     
 
-      <span class="brand-text font-weight-light">Admin</span>
+      <span class="brand-text font-weight-light">Service Admin</span>
     </a>
 
     <!-- Sidebar -->
-    <div class="sidebar">
+    <div class="sidebar  text-white" style="background-color:#0000A0">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
@@ -106,7 +106,7 @@ foreach($results as $row)
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
-                Person List
+                Service List
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -114,13 +114,13 @@ foreach($results as $row)
               <li class="nav-item">
                 <a href="add-person.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Add Person</p>
+                  <p>Add Service</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="manage-person.php" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Manage Person</p>
+                  <p>Manage Service</p>
                 </a>
               </li>
              
