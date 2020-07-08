@@ -60,31 +60,23 @@ echo "<script>alert('Invalid Details');</script>";
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
 <body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="login.php"><b>Admin</b></a>
+<div class="login-box" style="margin-top: -40px;">
+  <div class="login-logo" style="padding:20px;background-color:rgb(39,51,51);color:white">
+    <a href="login.php" ><b class="text-white">Admin</b></a>
   </div>
   <!-- /.login-logo -->
-  <div class="card">
+  <div class="card " style="margin-top: -15px;">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in</p>
 
       <form action="" method="post" id="login">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="User Name" required="true" name="username" value="<?php if(isset($_COOKIE["user_login"])) { echo $_COOKIE["user_login"]; } ?>" >
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-user"></span>
-            </div>
-          </div>
+          
         </div>
         <div class="input-group mb-3">
           <input type="password" class="form-control" placeholder="Password" name="password" required="true" value="<?php if(isset($_COOKIE["userpassword"])) { echo $_COOKIE["userpassword"]; } ?>">
-          <div class="input-group-append">
-            <div class="input-group-text">
-              <span class="fas fa-lock"></span>
-            </div>
-          </div>
+          
         </div>
         <div class="row">
           <div class="col-8">

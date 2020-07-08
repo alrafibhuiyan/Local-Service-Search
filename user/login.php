@@ -43,20 +43,21 @@ if(isset($_POST['log'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="headings">
-        <h1>Login</h1>
+    
+    <div id="headings" >
+        <center><h2 style="padding:30px;width:326px;background-color:rgb(39,51,51);margin-top:70px;color:white">Login</h2></center>
     </div>
+    <div class="container" style="width:360px;">
+    
+        <div class="pack" style="width:360px;">
 
-    <div class="container">
-        <div class="pack">
-
-            <form method="post" action="login.php" >
+            <form method="post"  action="login.php" style="width:350px;margin-left:auto;margin-right:auto" >
                 <input type="email" required="true" name="email" id="emailField" class="field" placeholder="Email" onchange="validationEmail()">
                 <span id="invalidEmail" style="color: red"> </span><br>
                 <input type="password" required="true" name="password" id="passwordField" class="field" placeholder="Password" onchange="validationPass()">
@@ -65,7 +66,7 @@ if(isset($_POST['log'])){
                 <br>
                 <br>
                 <p>Create a new Profile ? <a href="registrationForm.php" id="sign-in">Registration</a></p>
-				<p>Back to <a href="http://localhost/lsse/index.php" id="">HOME</a></p>
+				<p>Back to <a href="../index.php" id="">HOME</a></p>
             </form>
 
         </div>

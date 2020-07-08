@@ -9,7 +9,7 @@
         <a href="dashboard.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        
+      <a href="http://localhost/Local-Service-Search-master/index.php" class="nav-link">View Site</a>
       </li>
     </ul>
 

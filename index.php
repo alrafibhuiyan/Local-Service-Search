@@ -35,7 +35,7 @@ include('includes/dbconnection.php');
 		
 </head>
 <body>
-	<div class="preloader"><span class="preloader-gif"></span></div>
+	<!-- <div class="preloader"><span class="preloader-gif"></span></div> -->
 	<div class="theme-wrap clearfix">
 		<!--================================responsive log and menu==========================================-->
 		<div class="wsmenucontent overlapblackbg"></div>
@@ -47,34 +47,14 @@ include('includes/dbconnection.php');
 		
 		<!--================================Revolution SLIDER SECTION==========================================-->
 		
-		<section id="slider-revolution">
-			<div class="fullwidthbanner-container">
-				<div class="revolution-slider tx-center">
-					<ul><!-- SLIDE  -->
-								
-						<!-- Slide1 -->
-						<li data-transition="slideright" data-slotamount="5" data-masterspeed="1000">
-						<!-- MAIN IMAGE -->
-							<img src="images/banner2.jpg" alt="item slide">
-						<!-- LAYERS -->	
-						
-						
-							
-					
-							
-						</li>
-						
-						
-						
-					</ul>
-				</div>
-			</div>
+		<section id="slider-revolution" style="margin-left:-2px;margin-bottom:20px" >
+			<img src="images/home_page.png" style="height:400px;width:100%"  alt="item slide">
 		</section>
 		
-		<section id="search-form">
+		<section id="search-form" >
 			<div class="container">
-				<div class="search-form-wrap">
-					<form class="clearfix" name="search" action="serviceman-search.php" method="post">
+				<div class="search-form-wrap" style="background-color:#273351;padding-top:-10px">
+					<form class="clearfix" name="search" action="serviceman-search.php" method="post" >
 						
 						<div class="select-field-wrap pull-left">
 		
@@ -99,7 +79,7 @@ foreach($result2 as $row)
 							</select>
 						</div>
 						<div class="submit-field-wrap pull-right">
-							<input class="search-form-submit bgyallow-1 white" name="search" type="submit"/>
+							<input style="background-color: #13a0e1;" class="search-form-submit  white" name="search" type="submit"/>
 						</div>
 					</form>
 				</div>
@@ -117,7 +97,7 @@ foreach($result2 as $row)
 					</div>
 				</div><!-- section title end -->
 				<div class="row category-section-wrap cat-style-2">
-					<div class="col-md-12 col-sm-6 col-xs-12"><!-- category column -->
+					<div class="col-md-12 col-sm-12 col-xs-12"><!-- category column -->
 						<div class="cat-wrap shadow-1">
 							
 							<h5><i class="fa fa-heart bgblue-1 white"></i>Local Service Category </h5>

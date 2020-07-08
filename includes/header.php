@@ -4,13 +4,6 @@ error_reporting(0);
 include('includes/dbconnection.php');
 ?>
 <div class="header">
-            <div class="top-toolbar"><!--header toolbar-->
-                <div class="container">
-                    <div class="row">
-                       
-                        <div class="col-md-6 col-sm-12 col-xs-12 pull-right">
-                            <div class="top-contact-info">
-                                <ul>
 <?php
 $sql="SELECT * from tblpage where PageType='contactus'";
 $query = $dbh -> prepare($sql);
@@ -23,27 +16,21 @@ if($query->rowCount() > 0)
 foreach($results as $row)
 {               ?>
                                     <?php $cnt=$cnt+1;}} ?>
-                                    <li><a class="toolbar-new-listing" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--header toolbar end-->
-            <div class="nav-wrapper"><!--main navigation-->
+           
+            <div class="nav-wrapper" style="background-color:#273351"><!--main navigation-->
                 <div class="container">
                     <!--Main Menu HTML Code-->
-                    <nav class="wsmenu slideLeft clearfix">
+                    <nav class="wsmenu slideLeft clearfix" style="background-color:#273351">
                         <div class="logo pull-left"><a href="index.php" title="Responsive Slide Menus"><h3 style="color:#08c2f3">Local Service Search</h3></a></div>
                         <ul class="mobile-sub wsmenu-list pull-right">
-                            <li><a href="index.php" class="">Home</a>
+                            <li><a href="index.php" class="" style="color:white">Home</a>
                                 
                             </li>
                             
-                            <li><a href="category.php">categories <span class="arrow"></span></a></li>
+                            <li><a href="category.php" style="color:white">categories <span class="arrow"></span></a></li>
                            
-                            <li><a href="user/login.php">Log In <span class="arrow"></span></a></li>
-                            <!-- <li><a class="toolbar-new-listing  " style="color:blue" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li> -->
+                            <li><a href="user/login.php" style="color:white">Log In <span class="arrow"></span></a></li>
+                            <li><a class="toolbar-new-listing  " style="color:blue" href="admin/login.php"><i class="fa fa-plus-circle"></i> Admin</a></li>
                             
                         </ul>
                     </nav>

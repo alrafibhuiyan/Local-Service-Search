@@ -41,13 +41,13 @@ if(isset($_POST['sub'])){
 <body>
 
     <div id="headings">
-        <h1>Registration Form</h1>
+        <center><h2 style="padding:30px;width:363px;background-color:rgb(39,51,51);margin-top:20px;color:white">Registration Form</h2></center>
     </div>
 
-    <div class="container">
-        <div class="pack">
+    <div class="container" style="width:400px;">
+        <div class="pack" style="width:400px;">
 
-            <form method="post" action="registrationForm.php" onsubmit="return main()">
+            <form method="post" action="registrationForm.php" style="width:350px;margin-left:auto;margin-right:auto" onsubmit="return main()">
 
                 <input type="text" required="true" name="name" id="nameField" class="field" placeholder="Name"  onchange="validationUserName()">
                 <span id="fullname" style="color: red"> </span> <br>

@@ -35,7 +35,7 @@ include('includes/dbconnection.php');
 		
 </head>
 <body>
-	<div class="preloader"><span class="preloader-gif"></span></div>
+	<!-- <div class="preloader"><span class="preloader-gif"></span></div> -->
 	<div class="theme-wrap clearfix">
 		<!--================================responsive log and menu==========================================-->
 		<div class="wsmenucontent overlapblackbg"></div>

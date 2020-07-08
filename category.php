@@ -40,7 +40,7 @@ include('includes/dbconnection.php');
 		
 </head>
 <body>
-	<div class="preloader"><span class="preloader-gif"></span></div>
+	<!-- <div class="preloader"><span class="preloader-gif"></span></div> -->
 	<div class="theme-wrap clearfix">
 		<!--================================responsive log and menu==========================================-->
 		<div class="wsmenucontent overlapblackbg"></div>
@@ -51,7 +51,7 @@ include('includes/dbconnection.php');
 		<!--================================HEADER==========================================-->
 		<?php include_once('includes/header.php');?>
 		<!--================================PAGE TITLE==========================================-->
-		<div class="page-title-wrap bgorange-1 padding-top-30 padding-bottom-30"><!-- section title -->
+		<div class="page-title-wrap padding-top-30 padding-bottom-30" style="background-color: #13a0e1"><!-- section title -->
 			<h4 class="white">categories</h4>
 		</div><!-- section title end -->
 		
